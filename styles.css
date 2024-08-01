@@ -83,6 +83,11 @@ section {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#resume h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
 #resume a {
 	color: #ff6347;
 	text-decoration: none;
@@ -175,6 +180,16 @@ h2 {
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
+}
+
+.resume-content {
+	display: flex;
+	justify-content: left;
+	padding-left: 300px;
+	list-style-type: disc;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 10px;
 }
 
 #resume a:hover {
