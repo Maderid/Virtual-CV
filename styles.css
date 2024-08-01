@@ -97,9 +97,28 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#skills {
+	text-align: center;
+	padding: 100px 20px 60px
+}
+
+#skills h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
 h2 {
     font-size: 32px;
     margin-bottom: 20px;
+}
+
+.skills-category {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	flex-wrap: wrap;
+	text-align: left;
 }
 
 .project {
