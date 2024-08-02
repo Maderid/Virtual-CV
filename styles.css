@@ -113,6 +113,16 @@ section {
 	text-align: center;
 }
 
+#contact a {
+	color: #ff6347;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#contact a:hover {
+	text-decoration: underline;
+}
+
 h2 {
     font-size: 32px;
     margin-bottom: 20px;
@@ -185,7 +195,7 @@ h2 {
 .resume-content {
 	display: flex;
 	justify-content: left;
-	padding-left: 300px;
+	padding-left: 250px;
 	list-style-type: disc;
 	text-align: left;
 	margin: 0;
@@ -194,6 +204,42 @@ h2 {
 
 #resume a:hover {
 	text-decoration: underline;
+}
+.job-experience {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.resume-content h4 {
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.resume-content ul {
+	text-align: left;
+	padding-left: 40px;
+}
+
+.job-experience h5 {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.job-experience p {
+	margin: 5px 0;
+	text-align: center;
+}
+
+.job-list {
+	list-style-type: disc;
+	padding-left: 10px;
+}
+
+.job-list li {
+	margin-bottom: 10px;
+	font-size: 16px;
+	text-align: center;
 }
 
 footer {
